@@ -59,7 +59,7 @@ To install GTAVI-Animation-Public, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/GTAVI-Animation-Public.git
+   git clone https://github.com/ealxdj/GTAVI-Animation-Public.git
    ```
 
 2. Navigate to the project directory:
