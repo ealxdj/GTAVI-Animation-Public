@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GTA VI Landing Page Scroll Animation (JavaScript) | Alejandro</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <section class="hero">
+      <div class="hero-img-container">
+        <img src="/hero-img-layer-1.jpg" alt="" />
+
+        <div class="hero-img-logo">
+          <img src="/logo.png" alt="" />
+        </div>
+
+        <img src="/hero-img-layer-2.png" alt="" />
+
+        <div class="hero-img-copy">
+          <p>Scroll down to reveal</p>
+        </div>
+      </div>
+
+      <div class="fade-overlay"></div>
+
+      <div class="overlay">
+        <svg width="100%" height="100%">
+          <defs>
+            <mask id="logoRevealMask">
+              <rect width="100%" height="100%" fill="white" />
+              <path id="logoMask"></path>
+            </mask>
+          </defs>
+          <rect
+            width="100%"
+            height="100%"
+            fill="#111117"
+            mask="url(#logoRevealMask)"
+          />
+        </svg>
+      </div>
+
+      <div class="logo-container"></div>
+
+      <div class="overlay-copy">
+        <h1>
+          Free <br />
+          Animation <br />
+          Linkedin
+        </h1>
+      </div>
+    </section>
+
+    <section class="outro">
+      <p>Don't forget to follow me for more!</p>>
+    </section>
+
+    <script type="module" src="/logo.js"></script>
+    <script type="module" src="/script.js"></script>
+  </body>
+</html>
